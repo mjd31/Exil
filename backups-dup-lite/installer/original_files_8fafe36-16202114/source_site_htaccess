@@ -1,0 +1,17 @@
+# This file was updated by Duplicator on 2023-08-16 17:48:49.
+# See the original_files_ folder for the original source_site_htaccess file.
+# BEGIN WordPress
+# Les directives (lignes) entre « BEGIN WordPress » et « END WordPress » sont générées
+# dynamiquement et doivent uniquement être modifiées via les filtres de WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /exilwordpress_8_16_2023_v1/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /exilwordpress_8_16_2023_v1/index.php [L]
+</IfModule>
+
+# END WordPress

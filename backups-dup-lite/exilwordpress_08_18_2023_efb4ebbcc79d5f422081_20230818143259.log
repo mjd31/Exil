@@ -1,0 +1,75 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 18 August 2023 14 h 33 min
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.5.1
+WORDPRESS:	6.3
+PHP INFO:	8.0.1 | SAPI: apache2handler
+SERVER:		Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.0.1 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (128M default) 
+MEMORY STACK: 6MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:13 | filtered:0 | create:13
+FILTERED: []
+SQL CREATED: exilwordpress_08_18_2023_efb4ebbcc79d5f422081_20230818143259_database.sql
+SQL FILE SIZE: 4.53MB (4745963)
+SQL FILE TIME: 2023-08-18 14:33:10
+SQL RUNTIME: 2.06 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/MAMP/htdocs/exilwordpress_08_16_2023-v2/exilwordpress_08_16_2023-v2
+ARCHIVE FILE: exilwordpress_08_18_2023_efb4ebbcc79d5f422081_20230818143259_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	100.07MB
+STATS:	Dirs 593 | Files 4,265
+SQL ADDED: exilwordpress_08_18_2023_efb4ebbcc79d5f422081_20230818143259_database.sql
+ZipArchive Object
+(
+    [lastId] => 4857
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4858
+    [filename] => C:\MAMP\htdocs\exilwordpress_08_16_2023-v2\exilwordpress_08_16_2023-v2\wp-content\backups-dup-lite\tmp\exilwordpress_08_18_2023_efb4ebbcc79d5f422081_20230818143259_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 4857
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 47.43MB
+ARCHIVE RUNTIME: 8.28 sec.
+MEMORY STACK: 10MB
+building installer
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 4.53MB
+INSTALLER FILE: 73.48KB
+ARCHIVE FILE: 49.26MB 
+EXPECTED FILE/DIRECTORY COUNT: 4,858
+ACTUAL FILE/DIRECTORY COUNT: 4,857
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 12.46 sec.
+PEAK PHP MEMORY USED: 10MB
+DONE PROCESSING => exilwordpress_08_18_2023 18 August 2023 14 h 33 min
+
