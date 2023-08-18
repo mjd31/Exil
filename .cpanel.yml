@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/becmaweb/exil.becmaweb.ca/wp-content/
+    - /bin/cp -R /home/becmaweb/repositories/exil/* $DEPLOYPATH
